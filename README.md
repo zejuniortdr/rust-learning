@@ -1,7 +1,7 @@
 # Guia de estudo do Rust + Rocket
 
 
-<div style="display: flex; gap: 10px; align-items: center;">
+<div style="display: flex; gap: 10px; align-items: center; background-color:white;">
   <img src="assets/imgs/rust-logo.svg" alt="Rust Logo" width="50">
   <img src="assets/imgs/rocket-logo.png" alt="Rocket Logo" width="50">
 </div>
