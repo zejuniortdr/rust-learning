@@ -17,10 +17,13 @@
 
 
 ## Projects
-1. [Cap 1. Hello World!](./projects/hello_world/main.rs)
-2. [Cap 1. Hello Cargo!](./projects/hello_cargo)
-3. [Cap 2. Guessing Game](./projects/guessing_game)
-
+1. Capítulo 01
+- [Hello World](./projects/capitulo-01/hello_world/main.rs)
+- [Hello Cargo!](./projects/capitulo-01/hello_cargo)
+2. Capitulo 02
+- [Guessing Game](./projects/capitulo-02/guessing_game)
+3. Capitulo 03
+-
 
 ## Rust
 
@@ -99,3 +102,6 @@ Especificações:
 
 Desafio extra:
 - Limitar a quantidade de palpites
+
+
+### Capitulo 3: Common Programming Concepts
