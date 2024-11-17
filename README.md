@@ -16,12 +16,12 @@
 
 
 ## Projects
-1. Capítulo 01 - Getting Started
+1. [Capítulo 01 - Getting Started](./projects/capitulo-01/)
 - [Hello World](./projects/capitulo-01/hello_world/main.rs)
 - [Hello Cargo!](./projects/capitulo-01/hello_cargo)
-2. Capitulo 02 - Programming a Guessing Game
+2. [Capitulo 02 - Programming a Guessing Game](./projects/capitulo-02/)
 - [Guessing Game](./projects/capitulo-02/guessing_game)
-3. Capitulo 03 - Common Programming Concepts
+3. [Capitulo 03 - Common Programming Concepts](./projects/capitulo-03/)
 - [Fahrenheit to Celsius](https://github.com/zejuniortdr/rust-learning/blob/3d36976ce4e72d42e4b1a6da09302562e3432819/projects/capitulo-03/challenges/src/main.rs#L12)
 - [Celsius to Fahrenheit](https://github.com/zejuniortdr/rust-learning/blob/3d36976ce4e72d42e4b1a6da09302562e3432819/projects/capitulo-03/challenges/src/main.rs#L16)
 - [Nth Fibonacci Recursive](https://github.com/zejuniortdr/rust-learning/blob/3d36976ce4e72d42e4b1a6da09302562e3432819/projects/capitulo-03/challenges/src/main.rs#L20)
