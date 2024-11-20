@@ -1,4 +1,4 @@
-// TODO: Fix the compiler error.
+// DONE: Fix the compiler error.
 fn main() {
     // let x = 3;
     // - first assignment to `x`
