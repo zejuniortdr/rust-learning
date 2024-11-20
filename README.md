@@ -13,6 +13,7 @@
 - [Interactive Rust Book](https://rust-book.cs.brown.edu/)
 - [Rocket Guide](https://rocket.rs/guide/v0.5/introduction/)
 - [Crates.io](https://crates.io/)
+- [Rustlings Exercises](https://github.com/rust-lang/rustlings)
 
 
 ## Projects
