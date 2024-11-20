@@ -5,6 +5,10 @@ fn call_me(num: u8) {
 }
 
 fn main() {
-    // TODO: Fix the function call.
-    call_me();
+    // DONE: Fix the function call.
+    // call_me();
+    // ^^^^^^^-- argument #1 of type `u8` is missing
+
+    call_me(10);
+
 }
