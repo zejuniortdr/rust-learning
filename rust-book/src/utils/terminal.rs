@@ -3,7 +3,7 @@ use std::io::Write;
 
 
 pub fn show_menu(title: &str, itens: &[&str], exit_option: bool) -> u32 {
-    // clear_screen();
+    clear_screen();
 
     let full_title = String::from("Rust Book :: ") + title;
     print_header(&full_title);
