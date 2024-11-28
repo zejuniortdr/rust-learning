@@ -43,7 +43,15 @@ pub fn run() {
         println!("{:?} = {} cents", coin_state, value_in_cents_by_state(&coin_state));
     }
 
+    println!("\nMatching with Option<T>");
+    let five = Some(5);
+    let six = plus_one(five);
+    let none = plus_one(None);
+
+    println!("five: {:?}, six: {:?}, none:{:?}", five, six, none);
+
     wait_for_enter();
+
 }
 
 fn value_in_cents(coin: &Coin) -> u8 {
@@ -67,5 +75,13 @@ fn value_in_cents_by_state(coin: &CoinState) -> u8 {
             25
         },
         CoinState::HalfDollar => 50,
+    }
+}
+
+
+fn plus_one(x: Option<i32>) -> Option<i32> {
+    match x {
+        Some(n) => Some(n + 1),
+        None => None,
     }
 }
