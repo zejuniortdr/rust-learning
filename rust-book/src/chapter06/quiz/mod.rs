@@ -4,6 +4,7 @@ mod quiz1;
 mod quiz2;
 mod quiz3;
 mod quiz4;
+mod quiz5;
 
 
 pub fn run() {
@@ -14,6 +15,7 @@ pub fn run() {
             "2",
             "3",
             "4",
+            "5",
         ];
 
         let user_input = show_menu("Chapter 06 - Quiz", &items, false);
@@ -25,6 +27,7 @@ pub fn run() {
             2 => quiz2::run(),
             3 => quiz3::run(),
             4 => quiz4::run(),
+            5 => quiz5::run(),
             _ => break,
         }
     }
