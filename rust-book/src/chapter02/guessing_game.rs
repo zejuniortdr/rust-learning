@@ -8,7 +8,8 @@ pub fn run() {
     println!("Guess the number!");
 
     // gera um numero aleatório entre 1 e 100 incluindo os extremos
-    let secret_number = rand::thread_rng().gen_range(1..=100);
+    let secret_number = rand::rng().random_range(1..=100);
+
 
     let tries = 10;
     let mut user_tries = 0;

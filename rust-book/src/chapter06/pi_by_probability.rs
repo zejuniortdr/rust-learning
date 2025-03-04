@@ -26,8 +26,8 @@ pub fn run(){
     while diff > precision {
         i += 1.0;
 
-        let n1 = rand::thread_rng().gen_range(random_start..=random_end);
-        let n2 = rand::thread_rng().gen_range(random_start..=random_end);
+        let n1 = rand::rng().random_range(random_start..=random_end);
+        let n2 = rand::rng().random_range(random_start..=random_end);
 
         if gcd(n1, n2) == 1 {
             coprimes += 1.0;
