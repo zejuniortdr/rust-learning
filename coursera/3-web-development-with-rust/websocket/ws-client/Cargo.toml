@@ -1,0 +1,11 @@
+[package]
+name = "ws-client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+futures = "0.3.31"
+futures-util = "0.3.31"
+tokio = "1.43.0"
+tokio-tungstenite = "0.26.2"
+tungstenite = "0.26.2"
